@@ -1,4 +1,4 @@
-pry
+
 
 BASE_HOA = {
   :chipmunks => ["Alvin", "Simon", "Theodore"],
@@ -8,7 +8,7 @@ BASE_HOA = {
 
 def add_character(show, name)
   return show[:name]
-binding.pry
+
   # Write your implementation here
   # Should return the array of the 'show' argument
 end
