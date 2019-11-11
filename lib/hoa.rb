@@ -4,9 +4,8 @@ BASE_HOA = {
   :jetsons => ["George", "Jane", "Judy", "Elroy"]
 }
 
-
 def add_character(show, name)
-  {:show => name}
+  BASE_HOA{:show => name}
   return show
   # Write your implementation here
   # Should return the array of the 'show' argument
